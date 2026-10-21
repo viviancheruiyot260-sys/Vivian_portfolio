@@ -1,0 +1,413 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Vivian Cheruiyot — Software Developer focused on web development, software engineering, and cloud computing.">
+
+    <title>Vivian Cheruiyot | Developer Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <header class="header">
+        <nav class="navbar container" aria-label="Main navigation">
+
+            <a href="#home" class="logo">Portfolio<span>.</span></a>
+
+            <button class="menu-toggle"
+                    id="menu-toggle"
+                    aria-label="Open navigation menu"
+                    aria-expanded="false"
+                    aria-controls="nav-menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <!-- ANIMATED BACKGROUND -->
+    <div class="bars-animation" aria-hidden="true">
+        <div class="bar" style="--i:6"></div>
+        <div class="bar" style="--i:5"></div>
+        <div class="bar" style="--i:4"></div>
+        <div class="bar" style="--i:3"></div>
+        <div class="bar" style="--i:2"></div>
+        <div class="bar" style="--i:1"></div>
+    </div>
+
+    <main>
+
+        <!-- HOME SECTION -->
+        <section id="home" class="home section">
+
+            <div class="home-info">
+
+                <p class="eyebrow">HELLO, WELCOME TO MY PORTFOLIO</p>
+
+                <h1>Vivian Cheruiyot</h1>
+
+                <h2 class="role-heading">
+                    I'm a <span class="role-text">Web Developer</span>
+                </h2>
+
+                <p class="home-description">
+                    I'm a software developer passionate about building
+                    technology that solves real-world problems. My interests
+                    span web development, software engineering, and cloud
+                    computing, where I enjoy turning ideas into practical,
+                    reliable digital solutions.
+                </p>
+
+                <p class="home-description">
+                    I build with HTML, CSS, and JavaScript while strengthening
+                    my software development fundamentals and exploring cloud
+                    technologies, deployment, and DevOps practices.
+                </p>
+
+                <div class="btn-sci">
+
+                    <!-- Replace cv.pdf with your actual CV file -->
+                    <a href="cv.pdf" class="btn" download>
+                        Download CV <i class="fa-solid fa-download"></i>
+                    </a>
+
+                    <div class="sci" aria-label="Social links">
+
+                        <!-- Replace # with your actual profile URLs -->
+                        <a href="https://github.com/viviancheruiyot260-sys"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           aria-label="GitHub">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+
+                        <a href="#"
+                           aria-label="LinkedIn">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+
+                        <a href="#"
+                           aria-label="X">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+
+                        <a href="#"
+                           aria-label="YouTube">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="home-img">
+                <div class="img-box">
+                    <div class="img-item">
+                        <img src="copy.jpeg" alt="Portrait of Vivian Cheruiyot">
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- ABOUT SECTION -->
+        <section id="about" class="about-section section">
+
+            <div class="section-heading">
+                <p class="eyebrow">GET TO KNOW ME</p>
+                <h2>About <span>Me</span></h2>
+                <p>A little about my journey, interests, and what I'm building.</p>
+            </div>
+
+            <div class="about-container">
+
+                <div class="about-image">
+                    <img src="copy.jpeg" alt="Vivian Cheruiyot, software developer">
+                    <div class="image-caption">
+                        <i class="fa-solid fa-code"></i>
+                        <span>Building. Learning. Growing.</span>
+                    </div>
+                </div>
+
+                <div class="about-content">
+
+                    <h3>Turning ideas into practical digital solutions.</h3>
+
+                    <p>
+                        I'm a developer with a growing foundation in information
+                        technology and a strong interest in creating useful
+                        software. I enjoy exploring how technology can simplify
+                        everyday challenges and create opportunities for people
+                        and businesses.
+                    </p>
+
+                    <p>
+                        My current focus is web development and software
+                        engineering. I'm building my skills through hands-on
+                        projects, collaborative learning, and experimenting
+                        with technologies that help bring ideas to life.
+                    </p>
+
+                    <p>
+                        I'm also exploring cloud computing and DevOps to
+                        understand the bigger picture: not just how to build
+                        applications, but how to deploy, manage, and scale them.
+                        My goal is to keep growing into a well-rounded developer
+                        who builds reliable solutions with real-world value.
+                    </p>
+
+                    <div class="about-focus">
+
+                        <div class="focus-item">
+                            <i class="fa-solid fa-laptop-code"></i>
+                            <div>
+                                <h4>Web Development</h4>
+                                <p>Building functional web experiences.</p>
+                            </div>
+                        </div>
+
+                        <div class="focus-item">
+                            <i class="fa-solid fa-code"></i>
+                            <div>
+                                <h4>Software Development</h4>
+                                <p>Solving problems through code.</p>
+                            </div>
+                        </div>
+
+                        <div class="focus-item">
+                            <i class="fa-solid fa-cloud"></i>
+                            <div>
+                                <h4>Cloud Computing</h4>
+                                <p>Learning deployment and cloud infrastructure.</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <a href="#projects" class="btn about-btn">
+                        Explore My Projects
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- PROJECTS SECTION -->
+        <section id="projects" class="projects section">
+
+            <div class="section-heading">
+                <p class="eyebrow">WHAT I'VE BEEN WORKING ON</p>
+                <h2>My <span>Projects</span></h2>
+                <p>
+                    A selection of ideas and projects through which I'm
+                    learning, building, and solving problems.
+                </p>
+            </div>
+
+            <div class="project-grid">
+
+                <article class="project-card">
+                    <img src="farm.png" alt="Farm to Market project" loading="lazy">
+                    <div class="project-info">
+                        <span class="project-category">Web Application</span>
+                        <h3>Farm to Market</h3>
+                        <p>A concept focused on connecting farmers with buyers.</p>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <img src="connect.png" alt="Campus Connect project" loading="lazy">
+                    <div class="project-info">
+                        <span class="project-category">Community Platform</span>
+                        <h3>Campus Connect</h3>
+                        <p>A platform concept for student opportunities and resources.</p>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <img src="smart savings.png" alt="Smart Savings project" loading="lazy">
+                    <div class="project-info">
+                        <span class="project-category">Finance</span>
+                        <h3>Smart Savings</h3>
+                        <p>A project concept focused on smarter saving habits.</p>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <img src="finder.png" alt="Hospital Finder project" loading="lazy">
+                    <div class="project-info">
+                        <span class="project-category">Service Discovery</span>
+                        <h3>Hospital Finder</h3>
+                        <p>A concept for helping users discover healthcare facilities.</p>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <img src="productivity.png" alt="Productivity app project" loading="lazy">
+                    <div class="project-info">
+                        <span class="project-category">Productivity</span>
+                        <h3>Productivity App</h3>
+                        <p>A concept for organizing tasks and everyday activities.</p>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <img src="portfolio.png" alt="Portfolio website project" loading="lazy">
+                    <div class="project-info">
+                        <span class="project-category">Web Development</span>
+                        <h3>Portfolio Website</h3>
+                        <p>A personal website showcasing my work and development journey.</p>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <img src="mood.png" alt="Mood Tracker project" loading="lazy">
+                    <div class="project-info">
+                        <span class="project-category">Wellness</span>
+                        <h3>Mood Tracker</h3>
+                        <p>A concept for tracking moods and personal reflections.</p>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <img src="attachment.png" alt="Attachment Connect project" loading="lazy">
+                    <div class="project-info">
+                        <span class="project-category">Career Platform</span>
+                        <h3>Attachment Connect</h3>
+                        <p>A concept focused on student attachment opportunities.</p>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <img src="hyperlocal.png" alt="Local Service Finder project" loading="lazy">
+                    <div class="project-info">
+                        <span class="project-category">Local Services</span>
+                        <h3>Local Service Finder</h3>
+                        <p>A concept for discovering useful services in nearby communities.</p>
+                    </div>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT SECTION -->
+        <section id="contact" class="contact-section section">
+
+            <div class="section-heading">
+                <p class="eyebrow">LET'S CONNECT</p>
+                <h2>Contact <span>Me</span></h2>
+                <p>
+                    Have a project idea, an opportunity, or simply want to
+                    connect? I'd love to hear from you.
+                </p>
+            </div>
+
+            <div class="contact-wrapper">
+
+                <div class="contact-details">
+                    <div class="contact-icon">
+                        <i class="fa-regular fa-paper-plane"></i>
+                    </div>
+
+                    <h3>Let's build something meaningful.</h3>
+
+                    <p>
+                        I'm open to connecting with developers, teams,
+                        organizations, and people working on ideas that
+                        make a difference.
+                    </p>
+                </div>
+
+                <form id="contact-form">
+
+                    <div class="form-group">
+                        <label for="name">Your name</label>
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Enter your name"
+                            autocomplete="name"
+                            required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Enter your email"
+                            autocomplete="email"
+                            required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Your message</label>
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="5"
+                            placeholder="Tell me what you have in mind..."
+                            required></textarea>
+                    </div>
+
+                    <button type="submit" id="submit-btn" class="btn">
+                        Send Message
+                        <i class="fa-solid fa-paper-plane"></i>
+                    </button>
+
+                    <p id="form-status" role="status" aria-live="polite"></p>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>
+            &copy; <span id="current-year"></span> Vivian Cheruiyot.
+            Built with curiosity and code.
+        </p>
+
+        <a href="#home" class="back-to-top" aria-label="Back to top">
+            <i class="fa-solid fa-arrow-up"></i>
+        </a>
+    </footer>
+
+</body>
+</html>
